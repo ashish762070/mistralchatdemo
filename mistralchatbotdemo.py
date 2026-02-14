@@ -12,7 +12,7 @@ st.title("📌 Free Mistral API Chatbot")
 # ------------------------------
 # Load API Key from secrets
 # ------------------------------
-MISTRAL_API_KEY = st.secrets["MISTRAL"]["api_key"]
+MISTRAL_API_KEY = st.secrets["MISTRAL"]["A0DsvvHnDkAb8crVrcidySCX6web9o9a"]
 
 if not MISTRAL_API_KEY:
     st.error("❗ Add your Mistral API key in .streamlit/secrets.toml")
